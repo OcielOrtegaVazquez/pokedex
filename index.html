@@ -24,20 +24,21 @@
                 <img src="assets/img/Logo Pokemon.png" style="width: 30%; margin-top: -5%;" alt="">
             </div>
         </div>
-        <div class="row">
+        <div class="row" style="margin-top: -3rem;">
             <div class="col-xs-3 col-sm-3 col-md-3">
-                <img src="assets/img/Logo Pokemon.png" style="width: 30%; margin-top: -5%;" alt="">
+
             </div>
             <div align="center" class="col-xs-3 col-sm-3 col-md-3">
-                <div class="card" style=" border-radius: 25px; background: rgb(2,0,36);
+                <div id="main-screen" style=" size: 10%; border-style:solid; border-radius: 25px; background: rgb(2,0,36);
                 background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(121,9,20,1) 18%, rgba(255,0,140,1) 100%); ">
+
                     <div class="container" style=" border: 5px; border-color: black;">
-                        <img src="assets/img/Logo Pokemon.png" style=" margin-top: 2rem; background-color: white; border-radius: 5px;" class="card-img-top" alt="...">
+                        <img src="assets/img/Logo Pokemon.png" style="margin-top: 2rem; border-radius: 5px;" class="card-img-top" alt="...">
                     </div>
 
                     <div class="card-body" class="row">
-                        <h5 class="card-title">Card title</h5>
-                        <div class="col-xs-6 col-sm-6 col-md-6">
+                        <input id="buscarId" name="buscarId" type="text" placeholder="Buscar Pokemon / Id">
+                        <div class="col-xs-6 col-sm-6 col-md-6" style="margin-top: 1rem;">
                             <div id="d-pad"></div>
                             <div id="up-button" class="d-pad-button"></div>
                             <div id="left-button" class="d-pad-button"></div>
@@ -48,38 +49,36 @@
 
                         <div class="col-xs-6 col-sm-6 col-md-6">
                             <div id="d-pad"></div>
-
-
-                            <button type="submit" id="a-button" class="d-pad-button">A</button>
-                            <button type="submit" id="b-button" class="d-pad-button">B</button>
-
-
+                            <button type="submit" id="a-button" name="btn-buscar" class="d-pad-button">A</button>
+                            <button type="reset" id="b-button" class="d-pad-button">B</button>
                         </div>
-
-
                     </div>
                 </div>
             </div>
             <div align="center" class="col-xs-3 col-sm-3 col-md-3">
-                <div class="card" style="width:100%;">
-                    <img src="assets/img/Logo Pokemon.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="card" style="border-style: solid; border-radius: 25px; background: rgb(2,0,36);
+                background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(121,9,20,1) 18%, rgba(255,0,140,1) 100%); ">
+
+
+                    <div class="card-body" class="row">
+                        <div class="green-screen">
+                            <span id="name-screen" style="font-size: 25px;"></span>
+                        </div>
+                    </div>
+
+                    <div class="screen-container" style="border-radius: 5px ;">
+                        <div id="height-screen" class="id-screen">Altura: </div>
+                        <div id="evolution-screen" class="id-screen">Pts. Exp: </div>
+                        <div id="mov-1-screen" class="id-screen">Mov 1: </div>
+                        <div id="mov-2-screen" class="id-screen">Mov 2: </div>
+                        <div id="weight-screen" class="id-screen">Peso: </div>
+                        <div id="type-screen" class="id-screen">Tipo: </div>
+                        <div id="id-screen" class="id-screen">Id: </div>
                     </div>
                 </div>
             </div>
-            <div align="center" class="col-xs-3 col-sm-3 col-md-3">
-                <img src="assets/img/Logo Pokemon.png" style="width: 30%; margin-top: -5%;" alt="">
-            </div>
-        </div>
 
     </container>
-    <container class="pokedex">
-
-    </container>
-
 </body>
 <footer>
     <script src="main.js"></script>
